@@ -8,7 +8,9 @@ InuitCSS is based on the Inverted Triangle philiosphy of CSS inheritence, an att
 
 ![](http://media.creativebloq.futurecdn.net/sites/creativebloq.com/files/images/2015/01/ITCSSlabels.jpg)
 
-[Here's the slides](http://csswizardry.net/talks/2014/11/itcss-dafed.pdf) from a talk that might help understanding it more.
+<http://csswizardry.net/talks/2014/11/itcss-dafed.pdf> - a talk that might help understanding it more.
+
+ <http://www.creativebloq.com/web-design/manage-large-scale-web-projects-new-css-architecture-itcss-41514731> - Interview with Harry Roberts on IT CSS
 
 ## Settings
 ```
