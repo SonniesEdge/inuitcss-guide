@@ -1,5 +1,7 @@
 # inuitcss-guide
-Demystifying the InuitCSS experience
+Demystifying the InuitCSS experience.
+
+[The official guide](https://github.com/inuitcss/getting-started) doesn't really cut it when it comes to explaining how to use InuitCSS. Here's something that hopefully makes things a bit easier to understand.
 
 ![](http://media.creativebloq.futurecdn.net/sites/creativebloq.com/files/images/2015/01/ITCSSlabels.jpg)
 
