@@ -3,7 +3,8 @@ Demystifying the InuitCSS experience
 
 
 
-// Settings
+## Settings
+```
 // @import inuit-defaults/settings.defaults
 //      inuitcss’ default settings
 //      bower install --save inuit-defaults
@@ -13,9 +14,10 @@ Demystifying the InuitCSS experience
 //      Define our initial breakpoint aliases and conditions.
 //      bower install --save inuit-responsive-settings
 //      https://github.com/inuitcss/settings.responsive
+```
 
-
-// // Tools
+## Tools
+```
 // @import inuit-functions/tools.functions
 //      inuitcss’ default functions
 //      bower install --save inuit-functions
@@ -35,12 +37,13 @@ Demystifying the InuitCSS experience
 //      inuitcss width classes generator
 //      bower install --save inuit-tools-widths
 //      https://github.com/inuitcss/tools.widths
+```
 
 
 
 
-
-// // Generic
+## Generic
+```
 // @import inuit-normalize/generic.reset
 //      Basic reset to complement normalize.css.
 //      bower install --save inuit-reset
@@ -60,10 +63,11 @@ Demystifying the InuitCSS experience
 //      High-level styling across shared rulesets
 //      bower install --save inuit-shared
 //      https://github.com/inuitcss/generic.shared
+```
 
 
-
-// // Base
+## Base
+```
 // @import inuit-page/base.page
 //      Base page-level styling.
 //      bower install --save inuit-page
@@ -88,9 +92,10 @@ Demystifying the InuitCSS experience
 //      Simple list styles
 //      bower install --save inuit-lists
 //      https://github.com/inuitcss/base.lists
+```
 
-
-// // Objects
+## Objects
+```
 // @import inuit-buttons/objects.buttons
 //      Simple, extensible button objects
 //      bower install --save inuit-buttons
@@ -155,13 +160,14 @@ Demystifying the InuitCSS experience
 //      A simple object to remove bullets and indents from lists
 //      bower install --save inuit-list-bare
 //      https://github.com/inuitcss/objects.list-bare
+```
 
 
 
 
 
-
-// // Trumps
+## Trumps
+```
 // @import inuit-widths-responsive/trumps.widths-responsive
 //      bower install --save inuit-widths-responsive
 //      https://github.com/inuitcss/trumps.widths-responsive
@@ -194,3 +200,4 @@ Demystifying the InuitCSS experience
 //      Helper classes to drop widths onto elements such as grid systems
 //      bower install --save inuit-widths
 //      https://github.com/inuitcss/trumps.widths
+```
