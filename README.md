@@ -1,4 +1,4 @@
-# inuitcss-guide
+# The helpless developer's guide to InuitCSS
 Demystifying the InuitCSS experience.
 
 [The official guide](https://github.com/inuitcss/getting-started) doesn't really cut it when it comes to explaining how to use [InuitCSS](https://github.com/inuitcss). Here's something that hopefully makes things a bit easier to understand.
