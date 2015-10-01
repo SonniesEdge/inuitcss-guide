@@ -5,6 +5,7 @@ Demystifying the InuitCSS experience.
 
 ## Philosophy
 InuitCSS is based on the Inverted Triangle philiosphy of CSS inheritence, an attempt to express best practice in large-scale web projects. The things at the top should be extremely generic, while those at the bottom should be ultra-specific overrides. 
+
 ![](http://media.creativebloq.futurecdn.net/sites/creativebloq.com/files/images/2015/01/ITCSSlabels.jpg)
 
 ## Settings
