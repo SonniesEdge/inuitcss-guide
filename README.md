@@ -166,9 +166,13 @@ InuitCSS is based on the descending triangle philiosphy of CSS inheritence. The 
 //      https://github.com/inuitcss/objects.list-bare
 ```
 
+## Components
 
+This is where your own code should come in! Define your page components here, utilising the support provided by those rules higher up the stack.
 
-
+```
+@import your/components/here
+```
 
 ## Trumps
 ```
