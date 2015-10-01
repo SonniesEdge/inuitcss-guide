@@ -3,6 +3,8 @@ Demystifying the InuitCSS experience.
 
 [The official guide](https://github.com/inuitcss/getting-started) doesn't really cut it when it comes to explaining how to use [InuitCSS](https://github.com/inuitcss). Here's something that hopefully makes things a bit easier to understand.
 
+## Philosophy
+InuitCSS is based on the descending triangle philiosphy of CSS inheritence. The things at the top should be extremely generic, while those at the bottom should be ultra-specific overrides. 
 ![](http://media.creativebloq.futurecdn.net/sites/creativebloq.com/files/images/2015/01/ITCSSlabels.jpg)
 
 ## Settings
