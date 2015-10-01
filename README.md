@@ -1,7 +1,7 @@
 # inuitcss-guide
 Demystifying the InuitCSS experience
 
-
+!()[http://media.creativebloq.futurecdn.net/sites/creativebloq.com/files/images/2015/01/ITCSSlabels.jpg]
 
 ## Settings
 ```
