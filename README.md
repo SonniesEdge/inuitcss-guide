@@ -36,15 +36,26 @@ It'll install some basics and let you start playing.
 
 
 
-## Detail
- 
+## Modules
+InuitCSS is *increadibly* modular and has all documentation inline. While this means that you only ever pull in what you need, and there's information inline, it means that getting a  high-level overviews is frustrating.
+
+Soooo, here's an attempt at building one!
+
+The following list breaks things up according to the inverted triangle philosophy, but notice that each module is prefixed with something like `inuit-defaults`. This helps group things by what they *do*. Then inside each group is the triangle stack level, e.g. `settings.defaults`, detailing *where* it affects. 
+
+I've included a simple @import example, along with the bower install command and a link to the documentation. I found that's what I needed most when starting out!
 
 ### Settings
+#### settings.defaults
+InuitCSS’ default settings
+<https://github.com/inuitcss/settings.defaults>
+
 ```
-// @import inuit-defaults/settings.defaults
-//      inuitcss’ default settings
-//      bower install --save inuit-defaults
-//      https://github.com/inuitcss/settings.defaults
+@import inuit-defaults/settings.defaults
+```
+
+```
+bower install --save inuit-defaults
 ```
 
 ```
