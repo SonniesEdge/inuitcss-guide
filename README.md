@@ -22,9 +22,18 @@ InuitCSS is based on the Inverted Triangle philiosphy of CSS inheritence, an att
 * *Components:* Discrete, complete chunks of UI (e.g. .carousel {}). This is the one layer that inuitcss doesn’t get involved with.
 * *Trumps:* High-specificity, very explicit selectors. Overrides and helper classes (e.g. .hidden {}).
  
+
+## Installing
+
+`bower install --save-dev inuit-starter-kit`
+
+
+
+
+## Detail
  
 
-## Settings
+### Settings
 ```
 // @import inuit-defaults/settings.defaults
 //      inuitcss’ default settings
@@ -39,7 +48,7 @@ InuitCSS is based on the Inverted Triangle philiosphy of CSS inheritence, an att
 //      https://github.com/inuitcss/settings.responsive
 ```
 
-## Tools
+### Tools
 ```
 // @import inuit-functions/tools.functions
 //      inuitcss’ default functions
@@ -71,7 +80,7 @@ InuitCSS is based on the Inverted Triangle philiosphy of CSS inheritence, an att
 
 
 
-## Generic
+### Generic
 ```
 // @import inuit-normalize/generic.reset
 //      Basic reset to complement normalize.css.
@@ -100,12 +109,7 @@ InuitCSS is based on the Inverted Triangle philiosphy of CSS inheritence, an att
 //      https://github.com/inuitcss/generic.shared
 ```
 
-## Elements
-
-I have no idea why this is missing from the stack. 
-
-
-## Base
+### Base
 ```
 // @import inuit-page/base.page
 //      Base page-level styling.
@@ -139,7 +143,7 @@ I have no idea why this is missing from the stack.
 //      https://github.com/inuitcss/base.lists
 ```
 
-## Objects
+### Objects
 ```
 // @import inuit-buttons/objects.buttons
 //      Simple, extensible button objects
@@ -231,7 +235,7 @@ I have no idea why this is missing from the stack.
 //      https://github.com/inuitcss/objects.list-bare
 ```
 
-## Components
+### Components
 
 This is where your own code should come in! Define your page components here, utilising the support provided by those rules higher up the stack.
 
@@ -239,7 +243,7 @@ This is where your own code should come in! Define your page components here, ut
 @import your/components/here
 ```
 
-## Trumps
+### Trumps
 ```
 // @import inuit-widths-responsive/trumps.widths-responsive
 //      bower install --save inuit-widths-responsive
