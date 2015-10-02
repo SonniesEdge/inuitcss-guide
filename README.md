@@ -46,6 +46,8 @@ The following list breaks things up according to the inverted triangle philosoph
 I've included a simple @import example, along with the bower install command and a link to the documentation. I found that's what I needed most when starting out!
 
 ### Settings
+Global variables, site-wide settings, config switches, etc.
+
 #### settings.defaults
 InuitCSS’ default settings
 <https://github.com/inuitcss/settings.defaults>
@@ -58,11 +60,14 @@ InuitCSS’ default settings
 bower install --save inuit-defaults
 ```
 
+#### settings.responsive
+Define our initial breakpoint aliases and conditions.
+<https://github.com/inuitcss/settings.responsive>
 ```
-// @import inuit-responsive-settings/settings.responsive
-//      Define our initial breakpoint aliases and conditions.
-//      bower install --save inuit-responsive-settings
-//      https://github.com/inuitcss/settings.responsive
+@import inuit-responsive-settings/settings.responsive
+```
+```
+bower install --save inuit-responsive-settings
 ```
 
 ### Tools
