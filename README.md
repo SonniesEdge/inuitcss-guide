@@ -11,6 +11,18 @@ InuitCSS is based on the Inverted Triangle philiosphy of CSS inheritence, an att
 <http://csswizardry.net/talks/2014/11/itcss-dafed.pdf> - a talk that might help understanding it more.
 
  <http://www.creativebloq.com/web-design/manage-large-scale-web-projects-new-css-architecture-itcss-41514731> - Interview with Harry Roberts on IT CSS
+ 
+ 
+ 
+* *Settings:* Global variables, site-wide settings, config switches, etc.
+* *Tools:* Site-wide mixins and functions.
+* *Generic:* Low-specificity, far-reaching rulesets (e.g. resets).
+* *Base:* Unclassed HTML elements (e.g. a {}, blockquote {}, address {}).
+* *Objects:* Objects, abstractions, and design patterns (e.g. .media {}).
+* *Components:* Discrete, complete chunks of UI (e.g. .carousel {}). This is the one layer that inuitcss doesn’t get involved with.
+* *Trumps:* High-specificity, very explicit selectors. Overrides and helper classes (e.g. .hidden {}).
+ 
+ 
 
 ## Settings
 ```
