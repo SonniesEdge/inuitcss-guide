@@ -1,19 +1,13 @@
 # The helpless developer's guide to InuitCSS
 Demystifying the InuitCSS experience.
 
-[The official guide](https://github.com/inuitcss/getting-started) doesn't really cut it when it comes to explaining how to use [InuitCSS](https://github.com/inuitcss). Here's something that hopefully makes things a bit easier to understand.
+[The official guide](https://github.com/inuitcss/getting-started) doesn't really cut it when it comes to explaining how to use the latest, ultra-modular version of [InuitCSS](https://github.com/inuitcss). Here's something that hopefully makes things a bit easier to understand.
 
 ## Philosophy
-InuitCSS is based on the Inverted Triangle philiosphy of CSS inheritence, an attempt to express best practice in large-scale web projects. The things at the top should be extremely generic, while those at the bottom should be ultra-specific overrides. 
+InuitCSS is based on the Inverted Triangle philiosphy of CSS inheritence, an attempt to express best practice in large-scale web projects. The rules at the top should be extremely generic, while those at the bottom should be ultra-specific overrides. 
 
 ![](stack.png)
 
-<http://csswizardry.net/talks/2014/11/itcss-dafed.pdf> - a talk that might help understanding it more.
-
-<http://www.creativebloq.com/web-design/manage-large-scale-web-projects-new-css-architecture-itcss-41514731> - Interview with Harry Roberts on IT CSS
- 
- 
- 
 * **Settings:** Global variables, site-wide settings, config switches, etc.
 * **Tools:** Site-wide mixins and functions.
 * **Generic:** Low-specificity, far-reaching rulesets (e.g. resets).
@@ -21,11 +15,23 @@ InuitCSS is based on the Inverted Triangle philiosphy of CSS inheritence, an att
 * **Objects:** Objects, abstractions, and design patterns (e.g. .media {}).
 * **Components:** Discrete, complete chunks of UI (e.g. .carousel {}). This is the one layer that inuitcss doesn’t get involved with.
 * **Trumps:** High-specificity, very explicit selectors. Overrides and helper classes (e.g. .hidden {}).
- 
+
+
+These links might shed some light on the whole thing:
+* <http://csswizardry.net/talks/2014/11/itcss-dafed.pdf> - comes up on Google when you search for "ITCSS".
+* <http://www.creativebloq.com/web-design/manage-large-scale-web-projects-new-css-architecture-itcss-41514731> - Interview with Harry Roberts on ITCSS
+
+
+## Practical
+
+InuitCSS isn't like Bootstrap or Zurb Foundation. It won't give you an out-of-the-box layout, or nicely styled buttons. It's a bunch of helper functions, written in Sass, that will help you to build your own systems. 
 
 ## Installing
+You can get an initial install of InuitCSS going with:
 
 `bower install --save-dev inuit-starter-kit`
+
+It'll install some basics and let you start playing. 
 
 
 
