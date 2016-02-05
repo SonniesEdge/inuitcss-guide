@@ -73,11 +73,15 @@ bower install --save inuit-responsive-settings
 ```
 
 ### Tools
+
+#### tools.functions
+inuitcss’ default functions
+<https://github.com/inuitcss/tools.functions>
 ```
-// @import inuit-functions/tools.functions
-//      inuitcss’ default functions
-//      bower install --save inuit-functions
-//      https://github.com/inuitcss/tools.functions
+@import inuit-functions/tools.functions
+```
+```
+bower install --save inuit-functions
 ```
 
 ```
