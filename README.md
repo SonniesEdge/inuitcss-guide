@@ -47,21 +47,10 @@ Meanwhile, `inuit-page/base.page` belongs to the `inuit-page` package, affects t
 
 I've included a simple @import example, along with the bower install command and a link to the documentation. I found that's what I needed most when starting out!
 
-* [Settings layer](settings.md) - Global variables, site-wide settings, config switches, etc.
-* [Tools layer](tools.md) - Site-wide mixins and functions.
-* [Generic layer](generic.md) - Low-specificity, far-reaching rulesets (e.g. resets, normalise.css, box-sizing).
-* [Base layer](base.md) - Unclassed HTML elements (Directly selects element typs e.g. a {}, blockquote {}, address {}).
-* [Objects layer](objects.md) - Objects, abstractions, and design patterns (e.g. .media {}). Cosmetic-free.
-* Components layer - Discrete, complete chunks of UI (e.g. .carousel {}, .card{}). Cosmetically-designed components. Inuit doesn't offer anything in this layer. This is for your own visually-designed components.
-* [Trumps layer](trumps.md) - High-specificity, very explicit selectors. Overrides and helper classes (e.g. .hidden {}).
-
-
-
-
-### COMPONENTS
-
-InuitCSS deliberately doesn't provide any visual components, so this is where your own code should come in! Define your page components here, utilising the support provided by those rules higher up the stack.
-
-```
-@import your/components/here
-```
+* **[Settings layer](settings.md)** - Global variables, site-wide settings, config switches, etc.
+* **[Tools layer](tools.md)** - Site-wide mixins and functions.
+* **[Generic layer](generic.md)** - Low-specificity, far-reaching rulesets (e.g. resets, normalise.css, box-sizing).
+* **[Base layer](base.md)** - Unclassed HTML elements (Directly selects element typs e.g. a {}, blockquote {}, address {}).
+* **[Objects layer](objects.md)** - Objects, abstractions, and design patterns (e.g. .media {}). Cosmetic-free.
+* **Components layer** - Discrete, complete chunks of UI (e.g. .carousel {}, .card{}). Cosmetically-designed components. Inuit doesn't offer anything in this layer. This is for your own visually-designed components.
+* **[Trumps layer](trumps.md)** - High-specificity, very explicit selectors. Overrides and helper classes (e.g. .hidden {}).
