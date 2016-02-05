@@ -38,8 +38,8 @@ Meanwhile, `inuit-page/base.page` belongs to the `inuit-page` package, affects t
 
 ### Module documentation
 * **[Settings layer](settings.md)** - Global variables, site-wide settings, config switches, etc.
-** [settings.default](settings.md#settingsdefault)
-** [settings.responsive](settings.md#settingsresponsive)
+    * [settings.default](settings.md#settingsdefault)
+    * [settings.responsive](settings.md#settingsresponsive)
 * **[Tools layer](tools.md)** - Site-wide mixins and functions.
 * **[Generic layer](generic.md)** - Low-specificity, far-reaching rulesets (e.g. resets, normalise.css, box-sizing).
 * **[Base layer](base.md)** - Unclassed HTML elements (Directly selects element typs e.g. a {}, blockquote {}, address {}).
