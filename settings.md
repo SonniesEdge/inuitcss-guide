@@ -22,6 +22,10 @@ $ npm install --save inuit-defaults
 ### Comments
 > Like the above says, never alter these directly, but create your own settings file to override them from.
 
+
+---
+
+
 ## settings.responsive
 Define our initial breakpoint aliases and conditions.
 
@@ -47,5 +51,3 @@ $breakpoints: (
 ```
 ### Comments
 > These are default breakpoints. $breakpoints can be overridden later.
-
----
