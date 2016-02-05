@@ -64,6 +64,7 @@ bower install --save inuit-defaults
 
 #### settings.responsive
 Define our initial breakpoint aliases and conditions.
+
 <https://github.com/inuitcss/settings.responsive>
 ```
 @import inuit-responsive-settings/settings.responsive
@@ -78,7 +79,8 @@ bower install --save inuit-responsive-settings
 Site-wide mixins and functions.
 
 #### tools.functions
-inuitcss’ default functions
+inuitcss’ default functions.
+
 <https://github.com/inuitcss/tools.functions>
 ```
 @import inuit-functions/tools.functions
@@ -88,7 +90,8 @@ bower install --save inuit-functions
 ```
 
 #### tools.mixins
-inuitcss’ default mixins
+inuitcss’ default mixins.
+
 <https://github.com/inuitcss/tools.mixins>
 ```
 @import inuit-mixins/tools.mixins
@@ -97,6 +100,7 @@ bower install --save inuit-mixins
 
 #### tools.responsive
 Currently, this inuitcss module just sets up our media query mixin.
+
 <https://github.com/inuitcss/tools.responsive>
 ```
 @import inuit-responsive-tools/tools.responsive
@@ -106,7 +110,8 @@ bower install --save inuit-responsive-tools
 ```
 
 #### tools.widths
-inuitcss width classes generator
+inuitcss width classes generator.
+
 <https://github.com/inuitcss/tools.widths>
 ```
 @import inuit-tools-widths/tools.widths
@@ -122,6 +127,7 @@ Low-specificity, far-reaching rulesets (e.g. resets, normalise.css, box-sizing).
 
 #### generic.reset
 Basic reset to complement normalize.css.
+
 <https://github.com/inuitcss/generic.reset>
 ```
 @import inuit-normalize/generic.reset
@@ -132,6 +138,7 @@ bower install --save inuit-reset
 
 #### generic.normalize
 @necolas’ normalize.css.
+
 <https://github.com/inuitcss/generic.normalize>
 ```
 @import inuit-normalize/generic.normalize
@@ -142,6 +149,7 @@ bower install --save inuit-normalize
 
 #### generic.box-sizing
 Global box-sizing options.
+
 <https://github.com/inuitcss/generic.box-sizing>
 ```
 @import inuit-box-sizing/generic.box-sizing
@@ -151,7 +159,8 @@ bower install --save inuit-box-sizing
 ```
 
 #### generic.shared
-High-level styling across shared rulesets
+High-level styling across shared rulesets.
+
 <https://github.com/inuitcss/generic.shared>
 ```
 @import inuit-shared/generic.shared
@@ -167,6 +176,7 @@ Unclassed HTML elements (Directly selects element types e.g. a {}, blockquote {}
 
 #### base.page
 Base page-level styling.
+
 <https://github.com/inuitcss/base.page>
 ```
 @import inuit-page/base.page
@@ -177,6 +187,7 @@ bower install --save inuit-page
 
 #### base.headings
 Base-level heading styles.
+
 <https://github.com/inuitcss/base.headings>
 ```
 @import inuit-headings/base.headings
@@ -186,7 +197,8 @@ bower install --save inuit-headings
 ```
 
 #### base.images
-Simple image styles
+Simple image styles.
+
 <https://github.com/inuitcss/base.images>
 ```
 @import inuit-images/base.images
@@ -196,7 +208,8 @@ bower install --save inuit-images
 ```
 
 #### base.paragraphs
-Simple paragraph styles
+Simple paragraph styles.
+
 <https://github.com/inuitcss/base.paragraphs>
 ```
 @import inuit-images/base.paragraphs
@@ -206,7 +219,8 @@ bower install --save inuit-paragraphs
 ```
 
 #### base.lists
-Simple list styles
+Simple list styles.
+
 <https://github.com/inuitcss/base.lists>
 ```
 @import inuit-images/base.lists
@@ -221,7 +235,8 @@ bower install --save inuit-lists
 Cosmetic-free objects, abstractions, and design patterns (e.g. .media {})
 
 ####  objects.buttons
-Simple, extensible button objects
+Simple, extensible button objects.
+
 <https://github.com/inuitcss/objects.buttons>
 ```
 @import inuit-buttons/objects.buttons
@@ -232,6 +247,7 @@ bower install --save inuit-buttons
 
 #### objects.tables
 Basic table styles.
+
 <https://github.com/inuitcss/objects.tables>
 ```
 @import inuit-tables/objects.tables
@@ -242,6 +258,7 @@ bower install --save inuit-tables
 
 #### objects.pack
 Cause items to pack up to automatically fill their parent.
+
 <https://github.com/inuitcss/objects.pack>
 ```
 @import inuit-pack/objects.pack
@@ -251,7 +268,8 @@ bower install --save inuit-pack
 ```
 
 #### objects.media
-@stubbornella’s media object (<http://www.stubbornella.org/content/2010/06/25/the-media-object-saves-hundreds-of-lines-of-code/>)
+@stubbornella’s media object (<http://www.stubbornella.org/content/2010/06/25/the-media-object-saves-hundreds-of-lines-of-code/>).
+
 <https://github.com/inuitcss/objects.media>
 ```
 @import inuit-media/objects.media
@@ -262,6 +280,7 @@ bower install --save inuit-media
 
 #### objects.tabs
 Simple tabs abstraction.
+
 <https://github.com/inuitcss/objects.tabs>
 ```
 @import inuit-tabs/objects.tabs
@@ -271,7 +290,8 @@ bower install --save inuit-tabs
 ```
 
 #### objects.flag
-The flag object (<http://csswizardry.com/2013/05/the-flag-object>)
+The flag object (<http://csswizardry.com/2013/05/the-flag-object>).
+
 <https://github.com/inuitcss/objects.flag>
 ```
 @import inuit-flag/objects.flag
@@ -282,6 +302,7 @@ bower install --save inuit-flag
 
 #### objects.box
 Simple object to make boxed-off content.
+
 <https://github.com/inuitcss/objects.box>
 ```
 @import inuit-box/objects.box
@@ -292,6 +313,7 @@ bower install --save inuit-box
 
 #### objects.list-block
 A simple, blocky list object.
+
 <https://github.com/inuitcss/objects.list-block>
 ```
 @import inuit-list-block/objects.list-block
@@ -302,6 +324,7 @@ bower install --save inuit-list-block
 
 #### objects.list-ui
 A simple, keyline-delimited blocky list object.
+
 https://github.com/inuitcss/objects.list-ui
 ```
 @import inuit-list-ui/objects.list-ui
@@ -312,6 +335,7 @@ bower install --save inuit-list-ui
 
 #### objects.list-inline
 Display a list as one horizontal row.
+
 <https://github.com/inuitcss/objects.list-inline>
 ```
 @import inuit-list-inline/objects.list-inline
@@ -322,6 +346,7 @@ bower install --save inuit-list-inline
 
 #### objects.block
 Stack an image above some text content.
+
 <https://github.com/inuitcss/objects.block>
 ```
 @import inuit-block/objects.block
@@ -331,7 +356,8 @@ bower install --save inuit-block
 ```
 
 #### objects.layout
-inuitcss’ answer to the traditional grid system
+inuitcss’ answer to the traditional grid system.
+
 <https://github.com/inuitcss/objects.layout>
 ```
 @import inuit-layout/objects.layout
@@ -341,7 +367,8 @@ bower install --save inuit-layout
 ```
 
 #### objects.list-bare
-A simple object to remove bullets and indents from lists
+A simple object to remove bullets and indents from lists.
+
 <https://github.com/inuitcss/objects.list-bare>
 ```
 @import inuit-list-bare/objects.list-bare
@@ -366,7 +393,8 @@ InuitCSS deliberately doesn't provide any visual components, so this is where yo
 High-specificity, very explicit selectors. Overrides and helper classes (e.g. .hidden {}).
 
 #### trumps.widths-responsive
-No description
+No description.
+
 <https://github.com/inuitcss/trumps.widths-responsive>
 ```
 @import inuit-widths-responsive/trumps.widths-responsive
@@ -377,6 +405,7 @@ bower install --save inuit-widths-responsive
 
 #### trumps.spacing-responsive
 No description.
+
 <https://github.com/inuitcss/trumps.spacing-responsive>
 ```
 @import inuit-spacing-responsive/trumps.spacing-responsive
@@ -386,7 +415,8 @@ bower install --save inuit-spacing-responsive
 ```
 
 #### trumps.spacing
-Spacing helper classes
+Spacing helper classes.
+
 <https://github.com/inuitcss/trumps.spacing>
 ```
 @import inuit-spacing/trumps.spacing
@@ -396,7 +426,8 @@ bower install --save inuit-spacing
 ```
 
 #### trumps.clearfix
-Simple clearfix helper
+Simple clearfix helper.
+
 <https://github.com/inuitcss/trumps.clearfix>
 ```
 @import inuit-clearfix/trumps.clearfix
@@ -406,7 +437,8 @@ bower install --save inuit-clearfix
 ```
 
 #### trumps.headings
-Class-bassed equivalents of our regular h1–6 rules
+Class-bassed equivalents of our regular h1–6 rules.
+
 <https://github.com/inuitcss/trumps.headings>
 ```
 @import inuit-headings-trumps/trumps.headings
@@ -417,7 +449,8 @@ bower install --save inuit-headings-trumps
 
 
 #### trumps.print
-Very crude, very basic reset-like module for print styles
+Very crude, very basic reset-like module for print styles.
+
 <https://github.com/inuitcss/trumps.print>
 ```
 @import inuit-print/trumps.print
@@ -427,7 +460,8 @@ bower install --save inuit-print
 ```
 
 #### trumps.widths
-Helper classes to drop widths onto elements such as grid systems
+Helper classes to drop widths onto elements such as grid systems.
+
 <https://github.com/inuitcss/trumps.widths>
 ```
 @import inuit-widths/trumps.widths
