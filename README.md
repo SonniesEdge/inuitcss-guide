@@ -26,15 +26,6 @@ These links might shed some light on the whole thing:
 
 InuitCSS isn't like Bootstrap or Zurb Foundation. It won't give you an out-of-the-box layout, or nicely styled buttons. It's a bunch of helper functions, mixins and classes, written in Sass, that will help you to build your own systems.
 
-## Installing
-You can get an initial install of InuitCSS going with:
-
-`bower install --save-dev inuit-starter-kit`
-
-It'll install some basics and let you start playing.
-
-
-
 
 ## Modules
 InuitCSS is *increadibly* modular and has all documentation inline. While this means that you only ever pull in what you need, and there's information inline, it means that getting a  high-level overview is extremely frustrating. This guide attempts to address that.
@@ -45,8 +36,7 @@ So, `inuit-tools-widths/tools.widths` belongs to the `inuit-tools-widths` packag
 
 Meanwhile, `inuit-page/base.page` belongs to the `inuit-page` package, affects the `base` layer and provides functionality that deals with a `page`.
 
-I've included a simple @import example, along with the bower install command and a link to the documentation. I found that's what I needed most when starting out!
-
+### Module documentation
 * **[Settings layer](settings.md)** - Global variables, site-wide settings, config switches, etc.
 * **[Tools layer](tools.md)** - Site-wide mixins and functions.
 * **[Generic layer](generic.md)** - Low-specificity, far-reaching rulesets (e.g. resets, normalise.css, box-sizing).
@@ -54,3 +44,31 @@ I've included a simple @import example, along with the bower install command and
 * **[Objects layer](objects.md)** - Objects, abstractions, and design patterns (e.g. .media {}). Cosmetic-free.
 * **Components layer** - Discrete, complete chunks of UI (e.g. .carousel {}, .card{}). Cosmetically-designed components. Inuit doesn't offer anything in this layer. This is for your own visually-designed components.
 * **[Trumps layer](trumps.md)** - High-specificity, very explicit selectors. Overrides and helper classes (e.g. .hidden {}).
+
+
+## Installation
+You get an initial install of InuitCSS going with:
+
+`$ bower install --save-dev inuit-starter-kit`
+
+This will install several of the required modules that are essential to any InuitCSS project.
+
+You'll then need to import the following into your build system:
+
+```
+// SETTINGS
+@import "bower_components/inuit-defaults/settings.defaults";
+
+// TOOLS
+@import "bower_components/inuit-functions/tools.functions";
+@import "bower_components/inuit-mixins/tools.mixins";
+
+// GENERIC
+@import "bower_components/inuit-normalize/generic.normalize";
+@import "bower_components/inuit-box-sizing/generic.box-sizing";
+
+// BASE
+@import "bower_components/inuit-page/base.page";
+```
+
+It's a really great idea
