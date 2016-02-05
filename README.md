@@ -137,7 +137,7 @@ bower install --save inuit-reset
 ```
 
 #### generic.normalize
-@necolas’ normalize.css.
+@necolas’ normalize.css (https://github.com/necolas/normalize.css/).
 
 <https://github.com/inuitcss/generic.normalize>
 ```
