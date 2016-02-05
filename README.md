@@ -39,7 +39,7 @@ It'll install some basics and let you start playing.
 ## Modules
 InuitCSS is *increadibly* modular and has all documentation inline. While this means that you only ever pull in what you need, and there's information inline, it means that getting a  high-level overview is extremely frustrating. This guide attempts to address that.
 
-The following list breaks things up according to the inverted triangle philosophy, but notice that each module is prefixed with something like `inuit-defaults`. This is a bower or npm package name. Then inside each group is the triangle stack level, e.g. `settings.xxxxxx`, detailing *where* in the triangle it affects, and the effect name `nnnnnn.default`, describing what it *does*.
+The following list breaks things up according to the inverted triangle philosophy, but notice that each module is prefixed with something like `inuit-defaults`. This is a bower or npm package name. A bower or npm package might contain more than one module. Then after the '/' in each group is the triangle stack level, e.g. `settings.xxxxxx`, detailing *where* in the triangle it affects, and, after the '.', the effect name `nnnnnn.default`, describing what it *does*.
 
 So, `inuit-tools-widths/tools.widths` belongs to the `inuit-tools-widths` package, affects the `tools` layer of the triangle and provides `widths` functionality.
 
