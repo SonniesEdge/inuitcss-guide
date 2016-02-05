@@ -1,7 +1,7 @@
 # The helpless developer's guide to InuitCSS
 Demystifying the InuitCSS experience.
 
-[The official guide](https://github.com/inuitcss/getting-started) doesn't really cut it when it comes to explaining how to use the latest, ultra-modular version of [InuitCSS](https://github.com/inuitcss). Here's something that hopefully makes things a bit easier to understand.
+[The official guide](https://github.com/inuitcss/getting-started) makes some big assumptions when it comes to explaining how to use the latest, ultra-modular version of [InuitCSS](https://github.com/inuitcss). This document attempts to expose the documentation in a way that is easier to understand.
 
 ## Philosophy
 InuitCSS is based on the Inverted Triangle philiosphy of CSS inheritence, an attempt to express best practice in large-scale web projects. The rules at the top should be extremely generic, while those at the bottom should be ultra-specific overrides.
@@ -47,7 +47,7 @@ Meanwhile, `inuit-page/base.page` belongs to the `inuit-page` package, affects t
 
 
 ## Installation
-You get an initial install of InuitCSS going with:
+You get an initial install of InuitCSS going via the [Inuit Starter Kit](https://github.com/inuitcss/starter-kit):
 
 `$ bower install --save-dev inuit-starter-kit`
 
