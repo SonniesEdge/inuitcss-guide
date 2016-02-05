@@ -1,7 +1,7 @@
 # SETTINGS
 Global variables, site-wide settings, config switches, etc.
 
-## settings.defaults
+## SETTINGS.DEFAULTS
 InuitCSS’ default settings.
 
 <https://github.com/inuitcss/settings.defaults>
@@ -23,7 +23,7 @@ $ npm install --save inuit-defaults
 > Like the above says, never alter these directly, but create your own settings file to override them from.
 
 
-## settings.responsive
+## SETTINGS.RESPONSIVE
 Define our initial breakpoint aliases and conditions.
 
 <https://github.com/inuitcss/settings.responsive>
