@@ -53,7 +53,7 @@ You get an initial install of InuitCSS going with:
 
 This will install several of the required modules that are essential to any InuitCSS project.
 
-You'll then need to import the following into your build system:
+You'll then need to import the following into your build system's main Sass file:
 
 ```
 // SETTINGS
@@ -71,4 +71,4 @@ You'll then need to import the following into your build system:
 @import "bower_components/inuit-page/base.page";
 ```
 
-It's a really great idea
+It's a really great idea to break your components into the ITCSS layers as you go along. It'll help you realize what layer you're working at.
