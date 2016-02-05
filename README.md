@@ -59,8 +59,17 @@ InuitCSS’ default settings.
 @import inuit-defaults/settings.defaults
 ```
 ```
-bower install --save inuit-defaults
+$ bower install --save inuit-defaults
+$ npm install --save inuit-defaults
 ```
+##### Extracted notes
+<https://github.com/inuitcss/settings.defaults/blob/master/_settings.defaults.scss>
+```
+// These variables are inuitcss’ defaults; they should not be modified or
+// adjusted directly; you should predefine the variables in your own project.
+```
+##### Comments
+> Like the above says, never alter these directly, but create your own settings file to override them from.
 
 #### settings.responsive
 Define our initial breakpoint aliases and conditions.
@@ -70,8 +79,23 @@ Define our initial breakpoint aliases and conditions.
 @import inuit-responsive-settings/settings.responsive
 ```
 ```
-bower install --save inuit-responsive-settings
+$ bower install --save inuit-responsive-settings
+$ npm install --save inuit-responsive-settings
 ```
+##### Extracted notes
+<https://github.com/inuitcss/settings.responsive/blob/master/_settings.responsive.scss>
+```
+$breakpoints: (
+    "palm"          "screen and (max-width: 44.9375em)",
+    "lap"           "screen and (min-width: 45em) and (max-width: 63.9375em)",
+    "lap-and-up"    "screen and (min-width: 45em)",
+    "portable"      "screen and (max-width: 63.9375em)",
+    "desk"          "screen and (min-width: 64em)",
+    "retina"        "(-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx)"
+) !default;
+```
+##### Comments
+> These are default breakpoints. $breakpoints can be overridden later.
 
 ---
 
@@ -88,6 +112,7 @@ Site-wide mixins and functions.
 $ bower install --save inuit-functions
 $ npm install --save inuit-functions
 ```
+##### Extracted notes
 <https://github.com/inuitcss/tools.functions/blob/master/_tools.functions.scss>
 ```
 // Maths helpers.
@@ -108,6 +133,7 @@ $ npm install --save inuit-functions
 ```
 bower install --save inuit-mixins
 ```
+##### Extracted notes
 <https://github.com/inuitcss/tools.mixins/blob/master/_tools.mixins.scss>
 ```
 // Create a fully formed type style (sizing and vertical rhythm) by passing in a
@@ -137,6 +163,7 @@ Sets up our media query mixin.
 ```    
 bower install --save inuit-responsive-tools     
 ```
+##### Extracted notes
 <https://github.com/inuitcss/tools.responsive/blob/master/_tools.responsive.scss>
 ```
 // A simple mixin to quickly generate whole media queries from the aliases and
@@ -164,6 +191,7 @@ inuitcss width classes generator.
 ```
 bower install --save inuit-tools-widths
 ```
+##### Extracted notes
 <https://github.com/inuitcss/tools.widths/blob/master/_tools.widths.scss>
 ```
 // A mixin to spit out our width classes. Pass in the columns we want the widths
@@ -172,6 +200,7 @@ bower install --save inuit-tools-widths
 //
 // @include inuit-widths(3 4, -sm);
 ```
+##### Comments
 > This generates only widths! This is NOT a grid solution!
 
 
@@ -189,7 +218,8 @@ Basic reset to complement normalize.css.
 @import inuit-normalize/generic.reset
 ```
 ```
-bower install --save inuit-reset
+$ bower install --save inuit-reset
+$ npm install --save inuit-reset
 ```
 
 #### generic.normalize
@@ -200,8 +230,11 @@ bower install --save inuit-reset
 @import inuit-normalize/generic.normalize
 ```
 ```
-bower install --save inuit-normalize
+$ bower install --save inuit-normalize
+$ npm install --save inuit-reset
 ```
+##### Comments
+> This is an exact clone of normalize.css
 
 #### generic.box-sizing
 Global box-sizing options.
@@ -211,8 +244,11 @@ Global box-sizing options.
 @import inuit-box-sizing/generic.box-sizing
 ```
 ```
-bower install --save inuit-box-sizing
+$ bower install --save inuit-box-sizing
+$ npm install --save inuit-box-sizing
 ```
+##### Comments
+> Including this will set the global `box-sizing` state to `border-box`.
 
 #### generic.shared
 High-level styling across shared rulesets.
@@ -222,8 +258,15 @@ High-level styling across shared rulesets.
 @import inuit-shared/generic.shared
 ```
 ```
-bower install --save inuit-shared
+$ bower install --save inuit-shared
+$ npm install --save inuit-shared
 ```
+##### Comments
+<https://github.com/inuitcss/generic.shared/blob/master/_generic.shared.scss>
+> Will create a vertical rhythm by applying a consistent margin-bottom to
+> h1, h2, h3, h4, h5, h6, ul, ol, dl, blockquote, p, address, hr, table, fieldset, figure, pre and %margin-bottom
+
+> Left indents ul, ol, dd, %margin-left by a consistent amount.
 
 ---
 
@@ -238,7 +281,24 @@ Base page-level styling.
 @import inuit-page/base.page
 ```
 ```
-bower install --save inuit-page
+$ bower install --save inuit-page
+$ npm install --save inuit-page
+```
+##### Extracted notes
+<https://github.com/inuitcss/base.page/blob/master/_base.page.scss>
+```
+* High-, page-level styling.
+*
+* 1. Set the default `font-size` and `line-height` for the entire project,
+*    sourced from our default variables. The `font-size` is calculated to exist
+*    in ems, the `line-height` is calculated to exist unitlessly.
+* 2. Force scrollbars to always be visible to prevent awkward ‘jumps’ when
+*    navigating between pages that do/do not have enough content to produce
+*    scrollbars naturally.
+* 3. Ensure the page always fills at least the entire height of the viewport.
+* 4. Prevent certain mobile browsers from automatically zooming fonts.
+* 5. Fonts on OSX will look more consistent with other systems that do not
+*    render text using sub-pixel anti-aliasing.
 ```
 
 #### base.headings
