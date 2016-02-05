@@ -47,7 +47,7 @@ Meanwhile, `inuit-page/base.page` belongs to the `inuit-page` package, affects t
 
 I've included a simple @import example, along with the bower install command and a link to the documentation. I found that's what I needed most when starting out!
 
-### Settings
+### SETTINGS
 Global variables, site-wide settings, config switches, etc.
 
 #### settings.defaults
@@ -74,7 +74,7 @@ bower install --save inuit-responsive-settings
 
 ---
 
-### Tools
+### TOOLS
 Site-wide mixins and functions.
 
 #### tools.functions
@@ -117,7 +117,7 @@ bower install --save inuit-tools-widths
 
 ---
 
-### Generic
+### GENERIC
 Low-specificity, far-reaching rulesets (e.g. resets, normalise.css, box-sizing).
 
 #### generic.reset
@@ -162,7 +162,7 @@ bower install --save inuit-shared
 
 ---
 
-### Base
+### BASE
 Unclassed HTML elements (Directly selects element types e.g. a {}, blockquote {}, address {}).
 
 #### base.page
@@ -217,7 +217,7 @@ bower install --save inuit-lists
 
 ---
 
-### Objects
+### OBJECTS
 Cosmetic-free objects, abstractions, and design patterns (e.g. .media {})
 
 ####  objects.buttons
@@ -352,7 +352,7 @@ bower install --save inuit-list-bare
 
 ---
 
-### Components
+### COMPONENTS
 
 InuitCSS deliberately doesn't provide any visual components, so this is where your own code should come in! Define your page components here, utilising the support provided by those rules higher up the stack.
 
@@ -362,7 +362,7 @@ InuitCSS deliberately doesn't provide any visual components, so this is where yo
 
 ---
 
-### Trumps
+### TRUMPS
 High-specificity, very explicit selectors. Overrides and helper classes (e.g. .hidden {}).
 
 #### trumps.widths-responsive
