@@ -24,7 +24,7 @@ These links might shed some light on the whole thing:
 
 ## Practical
 
-InuitCSS isn't like Bootstrap or Zurb Foundation. It won't give you an out-of-the-box layout, or nicely styled buttons. It's a bunch of helper functions, written in Sass, that will help you to build your own systems. 
+InuitCSS isn't like Bootstrap or Zurb Foundation. It won't give you an out-of-the-box layout, or nicely styled buttons. It's a bunch of helper functions, mixins and classes, written in Sass, that will help you to build your own systems. 
 
 ## Installing
 You can get an initial install of InuitCSS going with:
@@ -37,11 +37,13 @@ It'll install some basics and let you start playing.
 
 
 ## Modules
-InuitCSS is *increadibly* modular and has all documentation inline. While this means that you only ever pull in what you need, and there's information inline, it means that getting a  high-level overviews is frustrating.
+InuitCSS is *increadibly* modular and has all documentation inline. While this means that you only ever pull in what you need, and there's information inline, it means that getting a  high-level overview is extremely frustrating. This guide attempts to address that.
 
-Soooo, here's an attempt at building one!
+The following list breaks things up according to the inverted triangle philosophy, but notice that each module is prefixed with something like `inuit-defaults`. This is a bower or npm package name. Then inside each group is the triangle stack level, e.g. `settings.xxxxxx`, detailing *where* in the triangle it affects, and the effect name `nnnnnn.default`, describing what it *does*.
 
-The following list breaks things up according to the inverted triangle philosophy, but notice that each module is prefixed with something like `inuit-defaults`. This helps group things by what they *do*. Then inside each group is the triangle stack level, e.g. `settings.defaults`, detailing *where* it affects. 
+So, `inuit-tools-widths/tools.widths` belongs to the `inuit-tools-widths` package, affects the `tools` layer of the triangle and provides `widths` functionality. 
+
+Meanwhile, `inuit-page/base.page` belongs to the `inuit-page` package, affects the `base` layer and provides functionality that deals with a `page`.
 
 I've included a simple @import example, along with the bower install command and a link to the documentation. I found that's what I needed most when starting out!
 
