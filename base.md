@@ -37,7 +37,19 @@ Base-level heading styles.
 @import inuit-headings/base.headings
 ```
 ```
-bower install --save inuit-headings
+$ bower install --save inuit-headings
+$ npm install --save inuit-headings
+```
+### Extracted notes
+<https://github.com/inuitcss/base.headings/blob/master/_base.headings.scss>
+```
+// Heading sizes are defined in variables
+// $inuit-heading-size-1:  36px !default;
+// $inuit-heading-size-2:  30px !default;
+// $inuit-heading-size-3:  24px !default;
+// $inuit-heading-size-4:  20px !default;
+// $inuit-heading-size-5:  16px !default;
+// $inuit-heading-size-6:  14px !default;
 ```
 
 ## base.images
@@ -48,7 +60,8 @@ Simple image styles.
 @import inuit-images/base.images
 ```
 ```
-bower install --save inuit-images
+$ bower install --save inuit-images
+$ npm install --save inuit-images
 ```
 
 ## base.paragraphs
@@ -59,7 +72,14 @@ Simple paragraph styles.
 @import inuit-images/base.paragraphs
 ```
 ```
-bower install --save inuit-paragraphs
+$ bower install --save inuit-paragraphs
+$ npm install --save inuit-paragraphs
+```
+### Extracted notes
+<https://github.com/inuitcss/base.paragraphs/blob/master/_base.paragraphs.scss>
+```
+// Provides the .lede class.
+// The .lede class is used to make the introductory text (usually a paragraph)
 ```
 
 ## base.lists
@@ -70,7 +90,11 @@ Simple list styles.
 @import inuit-images/base.lists
 ```
 ```
-bower install --save inuit-lists
+$ bower install --save inuit-lists
+$ npm install --save inuit-lists
+```
+```
+// Remove extra vertical spacing when nesting lists.
 ```
 
 ---
