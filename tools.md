@@ -31,7 +31,8 @@ $ npm install --save inuit-functions
 @import inuit-mixins/tools.mixins
 ```
 ```
-bower install --save inuit-mixins
+$ bower install --save inuit-mixins
+$ npm install --save inuit-mixins
 ```
 ### Extracted notes
 <https://github.com/inuitcss/tools.mixins/blob/master/_tools.mixins.scss>
@@ -61,7 +62,8 @@ Sets up our media query mixin.
 @import inuit-responsive-tools/tools.responsive
 ```
 ```    
-bower install --save inuit-responsive-tools     
+$ bower install --save inuit-responsive-tools
+$ npm install --save inuit-responsive-tools
 ```
 ### Extracted notes
 <https://github.com/inuitcss/tools.responsive/blob/master/_tools.responsive.scss>
@@ -89,7 +91,8 @@ inuitcss width classes generator.
 @import inuit-tools-widths/tools.widths
 ```
 ```
-bower install --save inuit-tools-widths
+$ bower install --save inuit-tools-widths
+$ npm install --save inuit-tools-widths
 ```
 ### Extracted notes
 <https://github.com/inuitcss/tools.widths/blob/master/_tools.widths.scss>

@@ -41,11 +41,44 @@ Meanwhile, `inuit-page/base.page` belongs to the `inuit-page` package, affects t
     * [settings.default](settings.md#settingsdefault)
     * [settings.responsive](settings.md#settingsresponsive)
 * **[Tools layer](tools.md)** - Site-wide mixins and functions.
+    * [tools.functions](tools.md#toolsfunctions)
+    * [tools.mixins](tools.md#toolsmixins)
+    * [tools.reponsive](tools.md#toolsresponsive)
+    * [tools.widths](tools.md#toolswidths)
 * **[Generic layer](generic.md)** - Low-specificity, far-reaching rulesets (e.g. resets, normalise.css, box-sizing).
+    * [generic.reset](generic.md#genericreset)
+    * [generic.normalize](generic.md#genericreset)
+    * [generic.box-sizing](generic.md#genericreset)
+    * [generic.shared](generic.md#genericreset)
 * **[Base layer](base.md)** - Unclassed HTML elements (Directly selects element typs e.g. a {}, blockquote {}, address {}).
+    * [base.page](base.md#basepage)
+    * [base.headings](base.md#baseheadings)
+    * [base.images](base.md#baseimages)
+    * [base.paragraphs](base.md#baseparagraphs)
+    * [base.lists](base.md#baselists)
 * **[Objects layer](objects.md)** - Objects, abstractions, and design patterns (e.g. .media {}). Cosmetic-free.
+    * [objects.buttons](objects.md#objectsbuttons)
+    * [objects.tables](objects.md#objectstables)
+    * [objects.pack](objects.md#objectspack)
+    * [objects.media](objects.md#objectsmedia)
+    * [objects.tabs](objects.md#objectstabs)
+    * [objects.flag](objects.md#objectsflag)
+    * [objects.box](objects.md#objectsbox)
+    * [objects.list-block](objects.md#objectslistblock)
+    * [objects.list-ui](objects.md#objectslistui)
+    * [objects.list-inline](objects.md#objectslistinline)
+    * [objects.block](objects.md#objectsblock)
+    * [objects.layout](objects.md#objectslayout)
+    * [objects.list-bare](objects.md#objectslistbare)
 * **Components layer** - Discrete, complete chunks of UI (e.g. .carousel {}, .card{}). Cosmetically-designed components. Inuit doesn't offer anything in this layer. This is for your own visually-designed components.
 * **[Trumps layer](trumps.md)** - High-specificity, very explicit selectors. Overrides and helper classes (e.g. .hidden {}).
+    * [trumps.widths-responsive](trumps.md#trumpswidthspresonsive)
+    * [trumps.spacing-responsive](trumps.md#trumpsspacingresponsive)
+    * [trumps.spacing](trumps.md#trumpsspacing)
+    * [trumps.clearfix](trumps.md#trumpsclearfix)
+    * [trumps.headings](trumps.md#trumpsheadings)
+    * [trumps.print](trumps.md#trumpsprint)
+    * [trumps.widths](trumps.md#trumpswidths)
 
 
 ## Installation
