@@ -11,6 +11,18 @@ Simple, extensible button objects.
 ```
 bower install --save inuit-buttons
 ```
+### Extracted notes
+<https://github.com/inuitcss/objects.buttons/blob/master/_objects.buttons.scss>
+```
+Provides the .btn class and following variants:
+
+.btn--small
+.btn--large
+.btn--full (full width)
+.btn--pill (rounded buttons)
+```
+> You need to enable variant variables.
+
 
 ## objects.tables
 Basic table styles.
@@ -20,8 +32,23 @@ Basic table styles.
 @import inuit-tables/objects.tables
 ```
 ```
-bower install --save inuit-tables
+$ bower install --save inuit-tables
+$ npm install --save inuit-tables
 ```
+### Extracted notes
+<https://github.com/inuitcss/objects.tables/blob/master/_objects.tables.scss>
+```
+Provides the .table class.
+
+.table--fixed (fixed width columns)
+.table--compact (minimal padding)
+.table--cosy   (half padding)
+.table--comfy (maximum padding)
+.table--cells (add border to table cells)
+.table--rows (add border to table rows)
+.table--columns (add border to table columns)
+```
+> You need to enable variant variables
 
 ## objects.pack
 Cause items to pack up to automatically fill their parent.
@@ -31,8 +58,20 @@ Cause items to pack up to automatically fill their parent.
 @import inuit-pack/objects.pack
 ```
 ```
-bower install --save inuit-pack
+$ bower install --save inuit-pack
+$ npm install --save inuit-pack
 ```
+### Extracted notes
+<https://github.com/inuitcss/objects.pack/blob/master/_objects.pack.scss>
+```
+// The pack object simply causes any number of elements pack up
+/// horizontally to automatically fill an equal, fluid width of their parent.
+
+.pack
+.pack__item
+```
+> Lots of variants.
+> Uses table-cell for old-browser compatibility. Could be replaced by a custom flex object.
 
 ## objects.media
 @stubbornella’s media object (<http://www.stubbornella.org/content/2010/06/25/the-media-object-saves-hundreds-of-lines-of-code/>).
@@ -42,8 +81,17 @@ bower install --save inuit-pack
 @import inuit-media/objects.media
 ```
 ```
-bower install --save inuit-media
+$ bower install --save inuit-media
+$ npm install --save inuit-media
 ```
+### Extracted notes
+<https://github.com/inuitcss/objects.media/blob/master/_objects.media.scss>
+```
+.media
+.media__img
+.media__body
+```
+> Lots of variants.
 
 ## objects.tabs
 Simple tabs abstraction.
