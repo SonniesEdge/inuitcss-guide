@@ -178,8 +178,29 @@ inuitcss’ answer to the traditional grid system.
 @import inuit-layout/objects.layout
 ```
 ```
-bower install --save inuit-layout
+$ bower install --save inuit-layout
+$ npm install --save inuit-layout
 ```
+### Extracted notes
+<https://github.com/inuitcss/objects.layout/blob/master/_objects.layout.scss>
+```
+// Provides a simple grid layout.
+// 
+// .layout - a grid layout container.
+// .layout__item - a grid item.
+```
+> Needs to be combined with `trumps.widths` and `tools.widths` to give each `.layout__item` a width.
+
+### IMPORTANT!
+Any HTML using the `layout__item` class must not contain whitespace between items!
+```html
+<ul class="layout">
+	<li class="layout__item">Item content</li><!--
+ --><li class="layout__item">Item content</li><!--
+ --><li class="layout__item">Item content</li>
+</ul>
+```
+
 
 ## objects.list-bare
 A simple object to remove bullets and indents from lists.

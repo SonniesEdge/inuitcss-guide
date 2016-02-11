@@ -104,7 +104,4 @@ $ npm install --save inuit-tools-widths
 // @include inuit-widths(3 4, -sm);
 ```
 ### Comments
-> This generates only widths! This is NOT a grid solution!
-
-
----
+> This generates only widths! This is NOT a grid solution! For a grid solution use this with [objects.layout](objects.md#objectslayout) and [trumps.widths](trumps.md#trumpswidths)

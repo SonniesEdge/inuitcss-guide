@@ -76,5 +76,15 @@ Helper classes to drop widths onto elements such as grid systems.
 @import inuit-widths/trumps.widths
 ```
 ```
-bower install --save inuit-widths
+$ bower install --save inuit-widths
+$ npm install --save inuit-widths
 ```
+
+### Extracted notes
+<https://github.com/inuitcss/trumps.widths/blob/master/_trumps.widths.scss>
+```
+By default provides .u-1/5 through to .u-5/5, fractional width classes.
+
+Can override $inuit-widths-columns for more.
+```
+> Requires `tools.widths`.
