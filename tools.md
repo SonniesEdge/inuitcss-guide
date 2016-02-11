@@ -82,6 +82,8 @@ $ npm install --save inuit-responsive-tools
 //
 // }
 ```
+### IMPORTANT!
+> Don't forget to include the sass file provided by [settings.responsive](settings.md#settingsresponsive), which is installed as a dependency of this module.
 
 ## tools.widths
 inuitcss width classes generator.
