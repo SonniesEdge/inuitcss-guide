@@ -104,6 +104,12 @@ You'll then need to import the following into your build system's main Sass file
 
 // BASE
 @import "bower_components/inuit-page/base.page";
+
+// OBJECTS
+
+// COMPONENTS
+
+// TRUMPS
 ```
 
 It's a really great idea to break your components into the ITCSS layers as you go along, as in the above `@import` example. It'll help you realize what layer you're working at.
