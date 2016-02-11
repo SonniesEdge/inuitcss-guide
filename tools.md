@@ -67,20 +67,18 @@ $ npm install --save inuit-responsive-tools
 ```
 ### Extracted notes
 <https://github.com/inuitcss/tools.responsive/blob/master/_tools.responsive.scss>
-```
+```scss
 // A simple mixin to quickly generate whole media queries from the aliases and
 // conditions defined in `_settings.responsive.scss`.
 //
 // Usage:
-//
-// .foo {
-//     color: green;
-//
-//     @include media-query(palm) {
-//         color: red;
-//     }
-//
-// }
+
+.foo {
+   color: green;
+   @include media-query(palm) {
+       color: red;
+   }
+}
 ```
 ### IMPORTANT!
 > Don't forget to include the sass file provided by [settings.responsive](settings.md#settingsresponsive), which is installed as a dependency of this module.
