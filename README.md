@@ -92,24 +92,32 @@ You'll then need to import the following into your build system's main Sass file
 
 ```
 // SETTINGS
+// Global variables, site-wide settings, config switches, etc.
 @import "bower_components/inuit-defaults/settings.defaults";
 
 // TOOLS
+// Site-wide mixins and functions.
 @import "bower_components/inuit-functions/tools.functions";
 @import "bower_components/inuit-mixins/tools.mixins";
 
 // GENERIC
+// Low-specificity, far-reaching rulesets (e.g. resets, normalise.css, box-sizing).
 @import "bower_components/inuit-normalize/generic.normalize";
 @import "bower_components/inuit-box-sizing/generic.box-sizing";
 
 // BASE
+// Unclassed HTML elements (Directly selects element typs e.g. a {}, blockquote {}, address {}).
 @import "bower_components/inuit-page/base.page";
 
 // OBJECTS
+// Objects, abstractions, and design patterns (e.g. .media {}). Cosmetic-free.
 
 // COMPONENTS
+// Discrete, complete chunks of UI (e.g. .carousel {}). Cosmetically-designed components. This is the one layer that inuitcss doesn’t get involved with.
 
 // TRUMPS
+// High-specificity, very explicit selectors. Overrides and helper classes (e.g. .hidden {}).
+
 ```
 
-It's a really great idea to break your components into the ITCSS layers as you go along, as in the above `@import` example. It'll help you realize what layer you're working at.
+It's a really great idea to break your components into the ITCSS layers as you go along, as in the above `@import` example. It will help you realize what layer you're working at, and be a constant reminder as to what each layer _does_.
