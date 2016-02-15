@@ -1,17 +1,6 @@
 # TRUMPS
 High-specificity, very explicit selectors. Overrides and helper classes (e.g. .hidden {}).
 
-## trumps.widths-responsive
-No description.
-
-<https://github.com/inuitcss/trumps.widths-responsive>
-```
-@import inuit-widths-responsive/trumps.widths-responsive
-```
-```
-bower install --save inuit-widths-responsive
-```
-
 ## trumps.spacing-responsive
 No description.
 
@@ -82,9 +71,27 @@ $ npm install --save inuit-widths
 
 ### Extracted notes
 <https://github.com/inuitcss/trumps.widths/blob/master/_trumps.widths.scss>
-```
+
 By default provides .u-1/5 through to .u-5/5, fractional width classes.
 
-Can override $inuit-widths-columns for more.
-```
+You can override `$inuit-widths-columns` for more columns.
+
+### Dependencies
 > Requires `tools.widths`.
+
+
+## trumps.widths-responsive
+No description.
+
+<https://github.com/inuitcss/trumps.widths-responsive>
+```
+@import inuit-widths-responsive/trumps.widths-responsive
+```
+```
+bower install --save inuit-widths-responsive
+```
+### Notes
+You can override `$inuit-widths-columns-responsive` for more columns.
+
+### Dependencies
+> Requires `trumps.widths`.
